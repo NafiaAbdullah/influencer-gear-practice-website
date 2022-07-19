@@ -4,7 +4,14 @@
 /* common styles or utilities*/
 body {
     font-family: 'Poppins', sans-serif;
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color: #FFFFFF;
 }
+
+/* hr {
+    border: 1px solid #D1D1D1;
+} */
 
 /* .............
 ...header styles....
@@ -14,8 +21,7 @@ nav {
     justify-content: space-between;
     align-items: center;
     margin-top: 50px;
-    margin-left: 50px;
-    margin-right: 50px;
+
 }
 
 .first-part {
@@ -37,4 +43,62 @@ nav a {
     font-size: 16px;
     font-weight: 600;
     color: #3A3A3A;
+}
+
+/* .........................
+.......top part styles......
+............................ */
+.container {
+    margin-bottom: 100px;
+}
+
+.influencer-journey {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 300px;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+h1 {
+    font-size: 52px;
+    font-weight: 700;
+    color: #3A3A3A;
+    margin-bottom: 0;
+}
+
+.prebook p {
+    font-size: 16px;
+    font-weight: 600;
+    color: #3A3A3A;
+}
+
+button {
+    text-decoration: none;
+    color: #FFFFFF;
+    background-color: #E02C6D;
+    padding: 10px 24px;
+    border: 5px;
+    border-radius: 40px;
+    font-size: 16px;
+    font-weight: 800;
+}
+
+.camera img {
+    width: 440px;
+    height: 414px;
+}
+
+/*....................
+...... Logo styles..... */
+
+.logos {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    justify-content: space-around;
+    padding: 50px 300px;
+    border-top: 0.5px solid gray;
+    border-bottom: 0.5px solid gray;
+    margin: 0 165px;
 }
